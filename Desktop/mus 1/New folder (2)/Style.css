@@ -1,0 +1,60 @@
+header{
+    height: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+html{
+    background-color: aquamarine;
+}
+header nav img{
+    float: left;
+}
+header nav ul{
+    list-style: none;
+ float: left;
+}
+header nav ul li{
+    display: inline;
+    border-right: 1px black solid ;
+    padding: 10px;
+}
+
+header nav ul li:last-child{
+    border-right: none;
+}
+.clearfix{
+    clear: both;
+}
+main, aside, article{
+    float: left;
+}
+
+
+aside{
+    width: 20%;
+}
+
+article{
+    width: 80%;
+}
+article img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+footer {
+padding-left: 30px;
+padding-right: 30px;
+
+}
+
+footer form{
+    
+float: right;
+}
+
+footer p{
+    float: left;
+}
